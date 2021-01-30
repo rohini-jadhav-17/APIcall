@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    grid-gap: 20px;
+    grid-template-columns: 200px;
+    grid-template-areas: "searchInput" "btn";
+}
+
+.inp {
+    grid-area: searchInput;
+    border: 1px #000000 solid;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.inp:hover {
+    border: 1px lawngreen solid;
+}
+
+.btn {
+    grid-area: btn;
+    background-color: black;
+    color: #ffffff;
+    border: 1px lawngreen solid;
+    border-radius: 5px;
+}
